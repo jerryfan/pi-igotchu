@@ -1,0 +1,45 @@
+{
+  "name": "@jrryfn/igotchu",
+  "version": "0.2.2",
+  "description": "Cheap-first drift monitor for pi (command: /yo). Nudges only at 95+ confidence.",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "extension",
+    "drift",
+    "focus",
+    "context",
+    "oneliner"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerryfan/igotchu.git"
+  },
+  "homepage": "https://github.com/jerryfan/igotchu",
+  "bugs": {
+    "url": "https://github.com/jerryfan/igotchu/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.ts",
+    "locales/*.json",
+    "SPEC.md",
+    "README.md",
+    "CHANGELOG.md",
+    "RELEASE.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-ai": "*",
+    "@mariozechner/pi-tui": "*"
+  }
+}

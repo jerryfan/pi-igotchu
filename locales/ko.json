@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "namespace": "ext.igotchu",
+  "locale": "ko",
+  "messages": {
+    "command.description": "드리프트 모니터(저비용 우선). confidence>=95일 때만 알림. Footer: <glyph> yo",
+
+    "ac.status": "현재 drift/conf/model 표시",
+    "ac.report": "오버레이 리포트 열기",
+    "ac.on": "yo 활성화",
+    "ac.off": "yo 비활성화",
+    "ac.sync": ".igotchu.md 지금 쓰기",
+    "ac.reset": "런타임 상태/쿨다운 초기화",
+    "ac.threshold": "confidence 임계값 설정(95-99)",
+    "ac.nudge": "드리프트 nudge 임계값 설정(0-100)",
+    "ac.model": "show/auto/pin",
+    "ac.deep": "현재 채팅 모델로 수동 deep 분석",
+    "ac.modelShow": "저비용 모델 선택 보기",
+    "ac.modelAuto": "저비용 모델 자동 선택",
+    "ac.modelPin": "provider/model 고정",
+
+    "common.never": "없음",
+    "common.none": "없음",
+    "common.na": "n/a",
+    "common.yes": "예",
+    "common.no": "아니오",
+
+    "status.enabled": "enabled",
+    "status.threshold": "threshold",
+    "status.nudge": "nudge",
+    "status.drift": "drift",
+    "status.conf": "conf",
+    "status.model": "model",
+    "status.mode": "mode",
+    "status.cooldown": "cooldown",
+    "status.lastSync": "lastSync",
+    "status.error": "error",
+    "status.on": "on",
+    "status.off": "off",
+
+    "notify.model": "yo model: {model} ({reason})",
+    "notify.noCheapModel": "yo: 사용 가능한 저비용 모델이 없습니다",
+    "notify.synced": "yo synced (.igotchu.md) [{reason}]",
+    "notify.syncFailed": "yo sync failed: {error}",
+    "notify.driftHigh": "yo: drift 높음 — {suggestion}",
+    "notify.enabled": "yo enabled",
+    "notify.disabled": "yo disabled",
+    "notify.thresholdSet": "yo threshold를 {threshold}(으)로 설정",
+    "notify.nudgeSet": "yo nudge drift threshold를 {threshold}(으)로 설정",
+    "notify.modelStatus": "yo model: {model} • mode={mode} • {reason}",
+    "notify.pinnedUnavailable": "고정한 모델을 사용할 수 없거나 인증되지 않았습니다",
+    "notify.resetComplete": "yo reset complete",
+
+    "notify.usage.threshold": "사용법: /yo threshold <95-99>",
+    "notify.usage.nudge": "사용법: /yo nudge <0-100>",
+    "notify.usage.modelPin": "사용법: /yo model pin <provider/model>",
+    "notify.usage.model": "사용법: /yo model show|auto|pin <provider/model>",
+
+    "suggestion.break": "잠깐 휴식하기",
+    "suggestion.summarize": "요약하고 목표를 다시 정리하기",
+    "suggestion.refocus": "재집중: 제약과 다음 단계를 다시 정리하기",
+    "suggestion.pause": "잠시 멈추고 재집중",
+
+    "error.noChatModelSelected": "현재 채팅 모델이 선택되지 않았습니다",
+    "deep.loader": "yo deep 분석(Esc로 취소)…",
+
+    "confirm.reset.title": "yo를 초기화할까요?",
+    "confirm.reset.body": "런타임 드리프트 기록과 쿨다운을 지웁니다(.igotchu.md는 유지)",
+
+    "report.title": "yo report",
+    "report.closeHint": "(Esc/Enter 닫기)",
+    "report.recent": "recent:",
+    "report.reason": "reason={reason}",
+    "report.advice": "advice={advice}",
+    "report.shownSuffix": " shown",
+
+    "md.title": "## Yo(드리프트 모니터)",
+    "md.purpose": "- 목적: 컨텍스트 드리프트를 감지하고, 매우 높은 신뢰도에서만 휴식/요약을 권합니다.",
+    "md.footerToken": "- Footer token: <glyph> yo",
+    "md.section.current": "## 현재",
+    "md.section.driftLog": "## 드리프트 로그(최근)",
+    "md.section.userNotes": "## 사용자 노트",
+
+    "usage": "사용법: /yo | on | off | status | report | sync | threshold <95-99> | nudge <0-100> | model show|auto|pin <provider/model> | deep | reset"
+  }
+}

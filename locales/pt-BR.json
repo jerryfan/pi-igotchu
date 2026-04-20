@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "namespace": "ext.igotchu",
+  "locale": "pt-BR",
+  "messages": {
+    "command.description": "Monitor de drift (barato primeiro). Só avisa com confidence>=95. Footer: <glyph> yo",
+
+    "ac.status": "mostrar drift/conf/model atual",
+    "ac.report": "abrir relatório em overlay",
+    "ac.on": "ativar yo",
+    "ac.off": "desativar yo",
+    "ac.sync": "escrever .igotchu.md agora",
+    "ac.reset": "resetar estado/cooldown em runtime",
+    "ac.threshold": "definir limiar de confidence (95-99)",
+    "ac.nudge": "definir limiar de nudge de drift (0-100)",
+    "ac.model": "show/auto/pin",
+    "ac.deep": "análise deep manual usando o modelo de chat atual",
+    "ac.modelShow": "mostrar seleção do modelo barato",
+    "ac.modelAuto": "auto-selecionar modelo barato",
+    "ac.modelPin": "fixar um provider/model",
+
+    "common.never": "nunca",
+    "common.none": "nenhum",
+    "common.na": "n/a",
+    "common.yes": "sim",
+    "common.no": "não",
+
+    "status.enabled": "enabled",
+    "status.threshold": "threshold",
+    "status.nudge": "nudge",
+    "status.drift": "drift",
+    "status.conf": "conf",
+    "status.model": "model",
+    "status.mode": "mode",
+    "status.cooldown": "cooldown",
+    "status.lastSync": "lastSync",
+    "status.error": "error",
+    "status.on": "on",
+    "status.off": "off",
+
+    "notify.model": "yo model: {model} ({reason})",
+    "notify.noCheapModel": "yo: nenhum modelo barato disponível",
+    "notify.synced": "yo synced (.igotchu.md) [{reason}]",
+    "notify.syncFailed": "yo sync failed: {error}",
+    "notify.driftHigh": "yo: drift alto — {suggestion}",
+    "notify.enabled": "yo ativado",
+    "notify.disabled": "yo desativado",
+    "notify.thresholdSet": "yo threshold definido para {threshold}",
+    "notify.nudgeSet": "yo nudge drift threshold definido para {threshold}",
+    "notify.modelStatus": "yo model: {model} • mode={mode} • {reason}",
+    "notify.pinnedUnavailable": "O modelo fixado não está disponível/autenticado",
+    "notify.resetComplete": "yo reset completo",
+
+    "notify.usage.threshold": "Uso: /yo threshold <95-99>",
+    "notify.usage.nudge": "Uso: /yo nudge <0-100>",
+    "notify.usage.modelPin": "Uso: /yo model pin <provider/model>",
+    "notify.usage.model": "Uso: /yo model show|auto|pin <provider/model>",
+
+    "suggestion.break": "fazer uma pausa curta",
+    "suggestion.summarize": "resumir + reafirmar o objetivo",
+    "suggestion.refocus": "refocar: reafirmar restrições + próximos passos",
+    "suggestion.pause": "pausar + refocar",
+
+    "error.noChatModelSelected": "Nenhum modelo de chat atual selecionado",
+    "deep.loader": "yo análise deep (Esc para cancelar)…",
+
+    "confirm.reset.title": "Resetar yo?",
+    "confirm.reset.body": "Limpa histórico de drift e cooldown (mantém .igotchu.md)",
+
+    "report.title": "yo report",
+    "report.closeHint": "(Esc/Enter para fechar)",
+    "report.recent": "recente:",
+    "report.reason": "reason={reason}",
+    "report.advice": "advice={advice}",
+    "report.shownSuffix": " mostrado",
+
+    "md.title": "## Yo (Monitor de drift)",
+    "md.purpose": "- Propósito: detectar drift de contexto e sugerir pausas/resumos apenas com confiança muito alta.",
+    "md.footerToken": "- Token do footer: <glyph> yo",
+    "md.section.current": "## Atual",
+    "md.section.driftLog": "## Log de drift (recente)",
+    "md.section.userNotes": "## Notas do usuário",
+
+    "usage": "Uso: /yo | on | off | status | report | sync | threshold <95-99> | nudge <0-100> | model show|auto|pin <provider/model> | deep | reset"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "namespace": "ext.igotchu",
+  "locale": "fr",
+  "messages": {
+    "command.description": "Moniteur de dérive (modèle le moins cher d’abord). Nudge seulement si confidence>=95. Footer: <glyph> yo",
+
+    "ac.status": "afficher drift/conf/model actuel",
+    "ac.report": "ouvrir le rapport en overlay",
+    "ac.on": "activer yo",
+    "ac.off": "désactiver yo",
+    "ac.sync": "écrire .igotchu.md maintenant",
+    "ac.reset": "réinitialiser l’état/cooldown runtime",
+    "ac.threshold": "définir le seuil de confidence (95-99)",
+    "ac.nudge": "définir le seuil de nudge de dérive (0-100)",
+    "ac.model": "show/auto/pin",
+    "ac.deep": "analyse deep manuelle avec le modèle de chat actuel",
+    "ac.modelShow": "afficher la sélection du modèle cheap",
+    "ac.modelAuto": "auto-sélectionner le modèle cheap",
+    "ac.modelPin": "épingler un provider/model",
+
+    "common.never": "jamais",
+    "common.none": "aucun",
+    "common.na": "n/a",
+    "common.yes": "oui",
+    "common.no": "non",
+
+    "status.enabled": "enabled",
+    "status.threshold": "threshold",
+    "status.nudge": "nudge",
+    "status.drift": "drift",
+    "status.conf": "conf",
+    "status.model": "model",
+    "status.mode": "mode",
+    "status.cooldown": "cooldown",
+    "status.lastSync": "lastSync",
+    "status.error": "error",
+    "status.on": "on",
+    "status.off": "off",
+
+    "notify.model": "yo model: {model} ({reason})",
+    "notify.noCheapModel": "yo : aucun modèle cheap disponible",
+    "notify.synced": "yo synced (.igotchu.md) [{reason}]",
+    "notify.syncFailed": "yo sync failed: {error}",
+    "notify.driftHigh": "yo : dérive élevée — {suggestion}",
+    "notify.enabled": "yo activé",
+    "notify.disabled": "yo désactivé",
+    "notify.thresholdSet": "yo threshold défini à {threshold}",
+    "notify.nudgeSet": "yo nudge drift threshold défini à {threshold}",
+    "notify.modelStatus": "yo model: {model} • mode={mode} • {reason}",
+    "notify.pinnedUnavailable": "Le modèle épinglé n’est pas disponible/authentifié",
+    "notify.resetComplete": "yo reset terminé",
+
+    "notify.usage.threshold": "Usage : /yo threshold <95-99>",
+    "notify.usage.nudge": "Usage : /yo nudge <0-100>",
+    "notify.usage.modelPin": "Usage : /yo model pin <provider/model>",
+    "notify.usage.model": "Usage : /yo model show|auto|pin <provider/model>",
+
+    "suggestion.break": "faire une courte pause",
+    "suggestion.summarize": "résumer + reformuler l’objectif",
+    "suggestion.refocus": "se recentrer : contraintes + prochaines étapes",
+    "suggestion.pause": "pause + se recentrer",
+
+    "error.noChatModelSelected": "Aucun modèle de chat actuel sélectionné",
+    "deep.loader": "yo analyse deep (Esc pour annuler)…",
+
+    "confirm.reset.title": "Réinitialiser yo ?",
+    "confirm.reset.body": "Efface l’historique de dérive et le cooldown (garde .igotchu.md)",
+
+    "report.title": "yo report",
+    "report.closeHint": "(Esc/Enter pour fermer)",
+    "report.recent": "récent :",
+    "report.reason": "reason={reason}",
+    "report.advice": "advice={advice}",
+    "report.shownSuffix": " affiché",
+
+    "md.title": "## Yo (Moniteur de dérive)",
+    "md.purpose": "- But : détecter la dérive de contexte et proposer pause/résumé uniquement avec une confiance très élevée.",
+    "md.footerToken": "- Token du footer : <glyph> yo",
+    "md.section.current": "## Actuel",
+    "md.section.driftLog": "## Journal de dérive (récent)",
+    "md.section.userNotes": "## Notes utilisateur",
+
+    "usage": "Usage : /yo | on | off | status | report | sync | threshold <95-99> | nudge <0-100> | model show|auto|pin <provider/model> | deep | reset"
+  }
+}

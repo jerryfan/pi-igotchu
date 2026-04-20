@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "namespace": "ext.igotchu",
+  "locale": "ja",
+  "messages": {
+    "command.description": "ドリフト監視（安価モデル優先）。confidence>=95 のときのみ通知。Footer: <glyph> yo",
+
+    "ac.status": "現在の drift/conf/model を表示",
+    "ac.report": "オーバーレイ報告を開く",
+    "ac.on": "yo を有効化",
+    "ac.off": "yo を無効化",
+    "ac.sync": ".igotchu.md を今書き込む",
+    "ac.reset": "ランタイム状態/クールダウンをリセット",
+    "ac.threshold": "confidence 閾値を設定（95-99）",
+    "ac.nudge": "ドリフト nudge 閾値を設定（0-100）",
+    "ac.model": "show/auto/pin",
+    "ac.deep": "現在のチャットモデルで手動 deep 分析",
+    "ac.modelShow": "安価モデルの選択を表示",
+    "ac.modelAuto": "安価モデルを自動選択",
+    "ac.modelPin": "provider/model をピン留め",
+
+    "common.never": "なし",
+    "common.none": "なし",
+    "common.na": "n/a",
+    "common.yes": "はい",
+    "common.no": "いいえ",
+
+    "status.enabled": "有効",
+    "status.threshold": "閾値",
+    "status.nudge": "nudge",
+    "status.drift": "drift",
+    "status.conf": "conf",
+    "status.model": "model",
+    "status.mode": "mode",
+    "status.cooldown": "cooldown",
+    "status.lastSync": "lastSync",
+    "status.error": "error",
+    "status.on": "on",
+    "status.off": "off",
+
+    "notify.model": "yo model: {model}（{reason}）",
+    "notify.noCheapModel": "yo: 利用可能な安価モデルがありません",
+    "notify.synced": "yo synced (.igotchu.md) [{reason}]",
+    "notify.syncFailed": "yo sync failed: {error}",
+    "notify.driftHigh": "yo: drift 高め — {suggestion}",
+    "notify.enabled": "yo enabled",
+    "notify.disabled": "yo disabled",
+    "notify.thresholdSet": "yo threshold を {threshold} に設定",
+    "notify.nudgeSet": "yo nudge drift threshold を {threshold} に設定",
+    "notify.modelStatus": "yo model: {model} • mode={mode} • {reason}",
+    "notify.pinnedUnavailable": "ピン留めしたモデルが利用できません/未認証です",
+    "notify.resetComplete": "yo reset complete",
+
+    "notify.usage.threshold": "使い方：/yo threshold <95-99>",
+    "notify.usage.nudge": "使い方：/yo nudge <0-100>",
+    "notify.usage.modelPin": "使い方：/yo model pin <provider/model>",
+    "notify.usage.model": "使い方：/yo model show|auto|pin <provider/model>",
+
+    "suggestion.break": "少し休憩する",
+    "suggestion.summarize": "要約して目的を言い直す",
+    "suggestion.refocus": "再集中：制約と次の手順を言い直す",
+    "suggestion.pause": "一旦止めて再集中",
+
+    "error.noChatModelSelected": "現在のチャットモデルが選択されていません",
+    "deep.loader": "yo deep 分析（Esc でキャンセル）…",
+
+    "confirm.reset.title": "yo をリセットしますか？",
+    "confirm.reset.body": "ランタイムのドリフト履歴とクールダウンを消去（.igotchu.md は保持）",
+
+    "report.title": "yo report",
+    "report.closeHint": "(Esc/Enter で閉じる)",
+    "report.recent": "recent:",
+    "report.reason": "reason={reason}",
+    "report.advice": "advice={advice}",
+    "report.shownSuffix": " shown",
+
+    "md.title": "## Yo（ドリフト監視）",
+    "md.purpose": "- 目的：文脈のドリフトを検知し、非常に高い信頼度のときだけ休憩/要約を促します。",
+    "md.footerToken": "- Footer token: <glyph> yo",
+    "md.section.current": "## 現在",
+    "md.section.driftLog": "## ドリフトログ（最近）",
+    "md.section.userNotes": "## ユーザーノート",
+
+    "usage": "使い方：/yo | on | off | status | report | sync | threshold <95-99> | nudge <0-100> | model show|auto|pin <provider/model> | deep | reset"
+  }
+}

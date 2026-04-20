@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "namespace": "ext.igotchu",
+  "locale": "zh-TW",
+  "messages": {
+    "command.description": "漂移監測（低成本優先）。僅在 confidence>=95 時提示。Footer：<glyph> yo",
+
+    "ac.status": "顯示目前 drift/conf/model",
+    "ac.report": "開啟覆蓋層報告",
+    "ac.on": "啟用 yo",
+    "ac.off": "停用 yo",
+    "ac.sync": "立即寫入 .igotchu.md",
+    "ac.reset": "重設執行期狀態/冷卻",
+    "ac.threshold": "設定 confidence 閾值（95-99）",
+    "ac.nudge": "設定 drift nudge 閾值（0-100）",
+    "ac.model": "show/auto/pin",
+    "ac.deep": "使用目前聊天模型進行手動深度分析",
+    "ac.modelShow": "顯示低成本模型選擇",
+    "ac.modelAuto": "自動選擇低成本模型",
+    "ac.modelPin": "釘選 provider/model",
+
+    "common.never": "從不",
+    "common.none": "無",
+    "common.na": "不適用",
+    "common.yes": "是",
+    "common.no": "否",
+
+    "status.enabled": "啟用",
+    "status.threshold": "閾值",
+    "status.nudge": "nudge",
+    "status.drift": "漂移",
+    "status.conf": "信心",
+    "status.model": "模型",
+    "status.mode": "模式",
+    "status.cooldown": "冷卻",
+    "status.lastSync": "上次同步",
+    "status.error": "錯誤",
+    "status.on": "開",
+    "status.off": "關",
+
+    "notify.model": "yo 模型：{model}（{reason}）",
+    "notify.noCheapModel": "yo：沒有可用的低成本模型",
+    "notify.synced": "yo 已同步（.igotchu.md）[{reason}]",
+    "notify.syncFailed": "yo 同步失敗：{error}",
+    "notify.driftHigh": "yo：漂移偏高 — {suggestion}",
+    "notify.enabled": "yo 已啟用",
+    "notify.disabled": "yo 已停用",
+    "notify.thresholdSet": "yo 閾值已設為 {threshold}",
+    "notify.nudgeSet": "yo nudge 漂移閾值已設為 {threshold}",
+    "notify.modelStatus": "yo 模型：{model} • mode={mode} • {reason}",
+    "notify.pinnedUnavailable": "釘選模型不可用或未通過驗證",
+    "notify.resetComplete": "yo 重設完成",
+
+    "notify.usage.threshold": "使用方式：/yo threshold <95-99>",
+    "notify.usage.nudge": "使用方式：/yo nudge <0-100>",
+    "notify.usage.modelPin": "使用方式：/yo model pin <provider/model>",
+    "notify.usage.model": "使用方式：/yo model show|auto|pin <provider/model>",
+
+    "suggestion.break": "短暫休息一下",
+    "suggestion.summarize": "摘要並重述目標",
+    "suggestion.refocus": "重新聚焦：重述限制與下一步",
+    "suggestion.pause": "暫停並重新聚焦",
+
+    "error.noChatModelSelected": "尚未選擇目前聊天模型",
+    "deep.loader": "yo 深度分析（Esc 可取消）…",
+
+    "confirm.reset.title": "要重設 yo 嗎？",
+    "confirm.reset.body": "清除執行期漂移歷史與冷卻（保留 .igotchu.md）",
+
+    "report.title": "yo 報告",
+    "report.closeHint": "（Esc/Enter 關閉）",
+    "report.recent": "最近：",
+    "report.reason": "原因={reason}",
+    "report.advice": "建議={advice}",
+    "report.shownSuffix": " 已提示",
+
+    "md.title": "## Yo（漂移監測）",
+    "md.purpose": "- 目的：偵測上下文漂移，僅在極高信心時提示休息/摘要。",
+    "md.footerToken": "- Footer 標記：<glyph> yo",
+    "md.section.current": "## 目前狀態",
+    "md.section.driftLog": "## 漂移紀錄（最近）",
+    "md.section.userNotes": "## 使用者筆記",
+
+    "usage": "使用方式：/yo | on | off | status | report | sync | threshold <95-99> | nudge <0-100> | model show|auto|pin <provider/model> | deep | reset"
+  }
+}
