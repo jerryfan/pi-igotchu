@@ -1,4 +1,4 @@
-# igotchu SPEC (HARD CUTOVER → /yo)
+# pi-igotchu SPEC (HARD CUTOVER → /yo)
 
 **Quality target:** 95+/100  
 **Version:** v2.0 (cutover)  

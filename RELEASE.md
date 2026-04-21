@@ -1,4 +1,4 @@
-# igotchu Release Plan (lean, npm-first)
+# pi-igotchu Release Plan (lean, npm-first)
 
 ## 1) Quality gate (manual, in a real pi session)
 
@@ -39,4 +39,4 @@ npm publish
 ```
 
 Install snippet:
-- `pi install npm:@jrryfn/igotchu`
+- `pi install npm:pi-igotchu`

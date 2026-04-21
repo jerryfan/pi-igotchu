@@ -1,5 +1,5 @@
 {
-  "name": "@jrryfn/igotchu",
+  "name": "pi-igotchu",
   "version": "0.2.2",
   "description": "Cheap-first drift monitor for pi (command: /yo). Nudges only at 95+ confidence.",
   "license": "MIT",
@@ -19,11 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jerryfan/igotchu.git"
+    "url": "git+https://github.com/jerryfan/pi-igotchu.git"
   },
-  "homepage": "https://github.com/jerryfan/igotchu",
+  "homepage": "https://github.com/jerryfan/pi-igotchu",
   "bugs": {
-    "url": "https://github.com/jerryfan/igotchu/issues"
+    "url": "https://github.com/jerryfan/pi-igotchu/issues"
   },
   "publishConfig": {
     "access": "public"
